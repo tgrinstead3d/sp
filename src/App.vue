@@ -1,12 +1,15 @@
 <script setup>
 import SideNav from './components/SideNav.vue'
 import TopNav from './components/TopNav.vue'
+import Carousel from "./components/Carousel.vue";
+
 </script>
 
 <template>
   <div id="app">
     <SideNav/>
     <TopNav/>
+    <Carousel/>
   </div>
 </template>
 
